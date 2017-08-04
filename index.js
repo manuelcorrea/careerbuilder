@@ -5,7 +5,7 @@ app.listen(3005);
 
 app.get('/manny', function (req, res, next) {
     res.setHeader('Content-Type', 'application/json');
-    res.status(301).send(JSON.stringify(chao()));
+    res.status(302).send(JSON.stringify(chao()));
 })
 
 function chao(){
